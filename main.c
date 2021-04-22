@@ -101,7 +101,6 @@ char play(void)
 		
                 my_string_assignment(&CWF,new_key);
 		msg = check_guess(CWF,guess,Guessed);
-//		GuessMessage(msg,guess);
 		my_string_push_back(Guessed, guess);
 		
 		if(checkWin(CWF, size) == SUCCESS) 
