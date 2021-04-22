@@ -89,7 +89,7 @@ char play(void)
                         get_word_key_value(CWF,new_key, word,guess);
                         insert(&root,new_key,word);
                 }
-                printInOrder(root);
+                //printInOrder(root);
                 max = getLargestNode(root, root); // return adress of largest node in avl tree
                 swapVector(max, &new_key, &MWL); // swap generic vector in node to preserve data from tree destruction
                 destroy(&root);
