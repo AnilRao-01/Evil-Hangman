@@ -79,6 +79,7 @@ char play(void)
 	tNode* root = NULL;
         tNode* max;
         int vsize;
+	num_guess--;
         for(int j = num_guess; j > 0; j--)
         {
                 vsize = generic_vector_get_size(MWL);
